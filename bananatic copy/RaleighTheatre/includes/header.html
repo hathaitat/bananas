@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="author" content="Maria">
+		<link rel="shortcut icon" href= "./images/favicon.png">
+		<link rel="stylesheet" href="./css/bootstrap.css" >
+		<link rel="stylesheet" href="./css/style.css">
+		<title>Ticketbanana</title>
+</head> -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link rel="icon" type="image/png" href="logo.png"/>
+<style>
+.navbar{
+    /* letter-spacing: 2px;
+    margin-bottom: 0;
+    border: 0pt; */
+    background : rgba(255, 231, 49, 0.856);
+    /* font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    color: black;
+}
+/* .navstyle{
+    text-align: center;
+} */
+input{
+	border: 0pt;
+	background-color:#FDE63C;
+}
+
+
+</style>
+<body background="./images/bg1.jpg"></body>>
+	<div class="container">
+		<!-- Navigation Bar  -->
+			 <nav class="navbar navbar-default">
+			
+			<ul class="nav navbar-nav">
+				 <form action="productions.php" method="POST">
+						<a href="index.php"><img  class="navbar-brand" src="./images/logo1.png" width="40" height="40" alt=""></a>
+						<a href="index.php" class="navbar-brand" style="color:black" href="./images/index.php">HOME</a>
+					<input class = "boton" type="submit" name="ClassicalMusic" value="CLASSICAL MUSIC">
+					<input class = "boton" type="submit" name="Drama" value="DRAMA">
+					<input class = "boton" type="submit" name="Musical" value="MUSICAL">
+					<input class = "boton" type="submit" name="Ballet" value="BALLET">
+					<input class = "boton" type="submit" name="Comedy" value="COMEDY">
+				 </form>
+			 </ul>
+			 <div class="mr-sm-0">
+					<a class="navbar-brand" id ="navbar-brand-shop"href="shoppingbasket.php" style="color:black; font-size:15px">MY  TICKET</a>
+					<a href="shoppingbasket.php"><img  class="navbar-brand mr-sm-0" src="./images/shopping_bag.png" width="50" height="50"></a>
+			 </div>
+			<!-- <a class="navbar-brand mr-sm-0" id ="navbar-brand-shop"href="shoppingbasket.php" style="color:black; font-size:15px">MY  BASKET</a>
+			<a href="shoppingbasket.php"><img  class="navbar-brand mr-sm-0" src="./images/shopping_bag.png" width="50" height="50"></a> -->
+			
+			<div class="col-lg-6" style="padding-top:8px" >
+			<a href="./login.php" style="color:white; font-size:15px"> ADMIN LOGIN </a>&nbsp;&nbsp;
+			<a href="./backlog.php" style="color:white; font-size:15px">LOGIN </a>&nbsp;&nbsp;
+
+			</div>
+							 <div  style="text-align:right">
+				<form action="searcher.php" method="get">
+					<input  type="text" name="terms"  size="30px" style="background-color:white">
+					<input class="btn btn-default" type="submit" name="searcher" value="SEARCH PRODUCTION" >
+				</form>
+			</div>        
+	</nav>
+	
+
+	<!-- <a href="index.php"><div class="thumbnail" style="border:none"><img src="./images/logo.png"></div></a> -->
+
+
+
+
+
+
+
+	 
+	</body>
+
+  
